@@ -1,0 +1,27 @@
+{
+  "list_ports": false,
+  "port": "COM8",
+  "baud": 115200,
+  "time_unit": "us",
+  "mag_unit": "uT",
+  "acc_unit": "g",
+  "gyro_unit": "deg/s",
+  "duration": 600,
+  "out": "C:\\Users\\kmins\\3_2\\Sensor_Theory\\imu_recordings\\trial_20261023_212533_nj55sjkr",
+  "start_utc": "2026-10-23T12:25:33.192862+00:00",
+  "output_units": {
+    "time": "s",
+    "acceleration": "g (9.8 m/s2)",
+    "angular_velocity": "deg/s",
+    "magnetic_field": "G"
+  },
+  "note": "No coordinate conversion, filtering or Vicon sync applied.",
+  "status": "stopped_by_user",
+  "error": null,
+  "samples": 823,
+  "rejected_lines": 0,
+  "first_device_time_s": 33.958403,
+  "last_device_time_s": 42.567434999999996,
+  "incomplete_tail_bytes": 0,
+  "end_utc": "2026-10-23T12:25:42.043627+00:00"
+}

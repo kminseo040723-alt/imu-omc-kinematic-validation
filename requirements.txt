@@ -1,0 +1,5 @@
+# Analysis dependencies; original packages are preserved under archive/.
+numpy
+pandas
+scipy
+matplotlib

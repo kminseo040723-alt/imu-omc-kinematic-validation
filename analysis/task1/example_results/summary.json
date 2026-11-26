@@ -1,0 +1,85 @@
+{
+  "input": "upload/record4(1).csv",
+  "units": "mm",
+  "metadata": {
+    "format": "Vicon Trajectories",
+    "source_sample_rate_hz": 100.0,
+    "first_frame": 2231.0,
+    "marker_labels_in_column_order": [
+      "20261023:11",
+      "20261023:12",
+      "20261023:13",
+      "20261023:14"
+    ]
+  },
+  "samples": 60806,
+  "duration_s": 608.05,
+  "empirical_template_frame_index": 23680,
+  "template_note": "One consistent observed frame; not supplied assignment geometry or IMU calibration.",
+  "missing_marker_frames": 0,
+  "flagged_frames": 1845,
+  "suspect_marker_frames": 99,
+  "repair_suspects_enabled": false,
+  "statuses": {
+    "observed": 243224
+  },
+  "parameters": {
+    "input": "upload/record4(1).csv",
+    "out": "task1_package/example_results",
+    "distance_floor_mm": 5.0,
+    "mad_scale": 6.0,
+    "rigid_fit_mm": 3.0,
+    "max_gap": 0.2,
+    "zero_is_missing": false,
+    "repair_suspects": false,
+    "demo": true,
+    "demo_gap": 0.1
+  },
+  "limitations": [
+    "Geometry flags are heuristic, not proof of an error.",
+    "Existing Vicon-filled intervals cannot be identified from coordinates alone.",
+    "Interpolation is limited to short internal gaps; long/edge gaps stay unresolved.",
+    "Held-out error measures agreement with exported data, not absolute accuracy.",
+    "Rigid-body assumptions may fail if the marker mounting deforms.",
+    "A single-frame empirical template can retain measurement error."
+  ],
+  "heldout_validation": [
+    {
+      "case": "one_marker",
+      "artificial_gap": true,
+      "start_s": 297.63,
+      "end_s": 297.72,
+      "samples_per_marker": 10,
+      "tested_markers": [
+        1
+      ],
+      "template_frame": 23680,
+      "coverage": 1.0,
+      "position_rmse_mm": 8.475106650908485,
+      "max_position_error_mm": 8.674168763124815,
+      "methods": [
+        "rigid"
+      ]
+    },
+    {
+      "case": "all_markers",
+      "artificial_gap": true,
+      "start_s": 297.63,
+      "end_s": 297.72,
+      "samples_per_marker": 10,
+      "tested_markers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "template_frame": 23680,
+      "coverage": 1.0,
+      "position_rmse_mm": 0.39661947829272254,
+      "max_position_error_mm": 0.9423559934234041,
+      "methods": [
+        "spline"
+      ]
+    }
+  ]
+}
