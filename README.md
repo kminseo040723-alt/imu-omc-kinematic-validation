@@ -18,8 +18,8 @@
 |---|---|
 | [raw_csv/imu.csv](raw_csv/imu.csv) | IMU 원본, 58,488 samples |
 | [raw_csv/omc_vicon.csv](raw_csv/omc_vicon.csv) | Vicon 내보내기 CSV, 60,806 frames, 100 Hz |
-| [code/task 2-5.py](code/task 2-5.py) | 동기화, 고정 공간 보정, 자세·위치 추정 |
-| [code/task1_marker_refinement.py](code/task1_marker_refinement.py) | 마커 거리 검사, 인공 결측 복원 검증 |
+| [code/task 2-5](code/task%202-5) | 동기화, 고정 공간 보정, 자세·위치 추정 |
+| [code/task 1](code/task%201) | 마커 거리 검사, 인공 결측 복원 검증 |
 | [results/results_summary.json](results/results_summary.json) | Tasks 2–5 전체 수치 요약 |
 | [results/task1_summary.json](results/task1_summary.json) | Task 1 진단·인공 결측 검증 요약 |
 | [results/omc_refined_task1.csv](results/omc_refined_task1.csv) | 최종 Tasks 2–5에서 사용한 OMC 좌표 |
