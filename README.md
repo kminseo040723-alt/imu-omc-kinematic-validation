@@ -25,6 +25,7 @@
 | [results/omc_refined_task1.csv](results/omc_refined_task1.csv) | 최종 Tasks 2–5에서 사용한 OMC 좌표 |
 | [results/task1_initial_OL_to_OG.csv](results/task1_initial_OL_to_OG.csv) | 최종 분석에서 사용한 초기 좌표축 |
 | [results/task1_template_mm.csv](results/task1_template_mm.csv) | 최종 분석에서 사용한 마커 기준 형상 |
+| [report/MinSeo_Kim_2023170677.pdf](report/MinSeo_Kim_2023170677.pdf) | 최종 report |
 
 
 ## 분석 방법과 주요 결과
